@@ -97,18 +97,16 @@
 </nav>
 
 <!-- body-->
-        @foreach (Series serie in ViewBag.listaSeries)
+    @foreach (Concierto Con in ViewBag.listaConciertos)
 {
-    <div class="card" style="width: 18rem;">
-      <img src="@serie.ImagenSerie" class="card-img-top" alt="...">
-      <div class="card-body">
-          <h5 class="card-title">@serie.Nombre</h5>
-          <p class="card-text">@serie.Sinopsis</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSerie" onclick="infoSeries(@serie.IdSerie)">Ver Información</button>
-       </div>
-    </div>
+   <div class="card" style="width: 18rem;">
+  <img src="@Con.Imagen" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">@Con.Nombre</h5>
+    <a href="#" class="btn btn-primary">Ver informacion</a>
+  </div>
+</div>
 }
-
 
   </body>
 </html>

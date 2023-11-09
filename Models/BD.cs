@@ -33,25 +33,14 @@ public static class BD{
         }
         return listaInfo;
     }
-    public static List<Tendencia> traerTendencia(int IdTendencia)
+   
+    public static void AgregarAlCarrito (Carrito carr)
     {
-        List<Tendencia> listaTendencia = new List<Tendencia>();
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "SELECT * FROM Tendencia WHERE IdTendencia = @id";
-            listaTendencia = db.Query<Tendencia>(sql, new { id = IdTendencia}).ToList();
+            string sql = "INSERT INTO Carrito(IdUsuario, IdConcierto) VALUES (@pIdUsuario, @pIdConcierto)";
+            using(SqlConnection db = new SqlConnection(_connectionString)){
+            db.Execute(sql, new {pIdUsuario = carr.IdUsuario, pIdCarrito = carr.IdConcierto});
         }
-        return listaTendencia;
-    }
-    public static Carrito AgregarAlCarrito (int IdUsuario, int IdConcierto)
-    {
-        Carrito Compra = new Carrito();
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "INSERT INTO Carrito  * WHERE IdTendencia = @id";
-            listaTendencia = db.Query<Tendencia>(sql, new { id = IdTendencia}).ToList();
         }
-        return listaTendencia;
     }
        public static List<Carrito> traerCarrito(int IdUsuario)
     {
@@ -63,4 +52,3 @@ public static class BD{
         }
         return listaTendencia;
     }
-}
