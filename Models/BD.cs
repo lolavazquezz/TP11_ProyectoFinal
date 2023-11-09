@@ -37,10 +37,10 @@ public static class BD{
     public static void AgregarAlCarrito (Carrito carr)
     {
             string sql = "INSERT INTO Carrito(IdUsuario, IdConcierto) VALUES (@pIdUsuario, @pIdConcierto)";
-            using(SqlConnection db = new SqlConnection(_connectionString)){
+            using(SqlConnection db = new SqlConnection(ConnectionString)){
             db.Execute(sql, new {pIdUsuario = carr.IdUsuario, pIdCarrito = carr.IdConcierto});
         }
-        }
+       
     }
        public static List<Carrito> traerCarrito(int IdUsuario)
     {

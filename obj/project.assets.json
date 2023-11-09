@@ -98,7 +98,7 @@
           "lib/netstandard2.0/SQLConnection.dll": {}
         }
       },
-      "System.Data.SqlClient/4.8.2": {
+      "System.Data.SqlClient/4.8.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -106,7 +106,7 @@
           "runtime.native.System.Data.SqlClient.sni": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp2.1/_._": {
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {
             "related": ".xml"
           }
         },
@@ -335,10 +335,10 @@
         "sqlconnection.nuspec"
       ]
     },
-    "System.Data.SqlClient/4.8.2": {
-      "sha512": "80vGtW6uLB4AkyrdVuKTXYUyuXDPAsSKbTVfvjndZaRAYxzFzWhJbvUfeAKrN+128ycWZjLIAl61dFUwWHOOTw==",
+    "System.Data.SqlClient/4.8.5": {
+      "sha512": "fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
       "type": "package",
-      "path": "system.data.sqlclient/4.8.2",
+      "path": "system.data.sqlclient/4.8.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -415,7 +415,7 @@
         "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
         "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
         "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
-        "system.data.sqlclient.4.8.2.nupkg.sha512",
+        "system.data.sqlclient.4.8.5.nupkg.sha512",
         "system.data.sqlclient.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -525,7 +525,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Dapper >= 2.1.15",
-      "SqlConnection >= 1.0.4"
+      "SqlConnection >= 1.0.4",
+      "system.data.sqlclient >= 4.8.5"
     ]
   },
   "packageFolders": {
@@ -581,6 +582,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.0.4, )"
+          },
+          "system.data.sqlclient": {
+            "target": "Package",
+            "version": "[4.8.5, )"
           }
         },
         "imports": [
