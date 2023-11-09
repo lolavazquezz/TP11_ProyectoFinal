@@ -5,6 +5,7 @@ public class Concierto{
     public DateTime Hora{get; set;}
     public int IdArtista{get; set;}
     public string Ubicacion{get; set;}
+    public string Pais {get;set;} 
     public string Imagen{get; set;}
     public string Genero{get; set;}
     public int Stock{get; set;}

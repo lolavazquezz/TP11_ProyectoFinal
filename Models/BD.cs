@@ -28,7 +28,7 @@ public static class BD{
         List<Concierto> listaInfo = new List<Concierto>();
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
-            string sql = "SELECT * WHERE IdConcierto = @id";
+            string sql = "SELECT * FROM Concierto WHERE IdConcierto = @id";
             listaInfo = db.Query<Concierto>(sql, new { id = IdConcierto}).ToList();
         }
         return listaInfo;
@@ -38,12 +38,12 @@ public static class BD{
         List<Tendencia> listaTendencia = new List<Tendencia>();
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
-            string sql = "SELECT * FROM WHERE IdTendencia = @id";
+            string sql = "SELECT * FROM Tendencia WHERE IdTendencia = @id";
             listaTendencia = db.Query<Tendencia>(sql, new { id = IdTendencia}).ToList();
         }
         return listaTendencia;
     }
-       public static List<Tendencia> traerTendencia(int IdTendencia)
+       public static List<UsuarioConcierto> traerTendencia(int IdTendencia)
     {
         List<Tendencia> listaTendencia = new List<Tendencia>();
         using (SqlConnection db = new SqlConnection(ConnectionString))
