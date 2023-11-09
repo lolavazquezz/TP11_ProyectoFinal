@@ -6,3 +6,11 @@ Z:\2023\PROGRAMACION\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.cspr
 Z:\2023\PROGRAMACION\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.MvcApplicationPartsAssemblyInfo.cache
 Z:\2023\PROGRAMACION\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.RazorAssemblyInfo.cache
 Z:\2023\PROGRAMACION\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.RazorAssemblyInfo.cs
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.csproj.AssemblyReference.cache
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.AssemblyInfoInputs.cache
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.AssemblyInfo.cs
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.csproj.CoreCompileInputs.cache
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.MvcApplicationPartsAssemblyInfo.cache
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.RazorAssemblyInfo.cache
+Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\obj\Debug\net7.0\TP11_ProyectoFinal.RazorAssemblyInfo.cs
