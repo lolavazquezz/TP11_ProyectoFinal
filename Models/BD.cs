@@ -15,9 +15,9 @@ public static class BD{
     }   
     public static string traerNombre(int IdConcierto)
     {
+        string nombre="";
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
-            string nombre="";
             string sql = "SELECT Nombre FROM Artista WHERE IdArtista = (SELECT IdArtista FROM Concierto WHERE IdArtista = @id)";
             nombre = db.QueryFirstOrDefault<string>(sql, new { id = IdConcierto});
         }
@@ -43,9 +43,19 @@ public static class BD{
         }
         return listaTendencia;
     }
-       public static List<UsuarioConcierto> traerTendencia(int IdTendencia)
+    public static Carrito AgregarAlCarrito (int IdUsuario, int IdConcierto)
     {
-        List<Tendencia> listaTendencia = new List<Tendencia>();
+        Carrito Compra = new Carrito();
+        using (SqlConnection db = new SqlConnection(ConnectionString))
+        {
+            string sql = "INSERT INTO Carrito  * WHERE IdTendencia = @id";
+            listaTendencia = db.Query<Tendencia>(sql, new { id = IdTendencia}).ToList();
+        }
+        return listaTendencia;
+    }
+       public static List<Carrito> traerCarrito(int IdUsuario)
+    {
+        List<Carrito> listaCarrito = new List<Carrito>();
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
             string sql = "SELECT * WHERE IdTendencia = @id";
