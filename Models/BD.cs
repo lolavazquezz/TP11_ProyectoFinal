@@ -38,10 +38,19 @@ public static class BD{
         List<Tendencia> listaTendencia = new List<Tendencia>();
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
+            string sql = "SELECT * FROM WHERE IdTendencia = @id";
+            listaTendencia = db.Query<Tendencia>(sql, new { id = IdTendencia}).ToList();
+        }
+        return listaTendencia;
+    }
+       public static List<Tendencia> traerTendencia(int IdTendencia)
+    {
+        List<Tendencia> listaTendencia = new List<Tendencia>();
+        using (SqlConnection db = new SqlConnection(ConnectionString))
+        {
             string sql = "SELECT * WHERE IdTendencia = @id";
             listaTendencia = db.Query<Tendencia>(sql, new { id = IdTendencia}).ToList();
         }
         return listaTendencia;
     }
-    
 }

@@ -92,28 +92,11 @@
       <div class="card-body">
           <h5 class="card-title">@serie.Nombre</h5>
           <p class="card-text">@serie.Sinopsis</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSerie" onclick="infoSeries(@serie.IdSerie)">Info Serie</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSerie" onclick="infoActores(@serie.IdSerie)">Info Actores</button>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSerie" onclick="infoTemporadas(@serie.IdSerie)">Info Temporadas</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSerie" onclick="infoSeries(@serie.IdSerie)">Ver Información</button>
        </div>
     </div>
 }
 
-<div class="modal fade" id="modalSerie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="Nombre">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div id="info"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+
   </body>
 </html>
