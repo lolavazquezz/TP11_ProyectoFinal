@@ -53,3 +53,33 @@ public static class BD{
         return listaTendencia;
     }
     
+         
+       public static Login login(string Usuario, string Contraseña)
+    {
+        Login Ingresado = new Login();
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            string SQL = "SELECT * FROM Usuario WHERE Usuario= @Usuarioo and Contraseña= @Contraseñaa";
+            Ingresado = db.QueryFirstOrDefault<Login>(SQL, new { Usuarioo = Usuario , Contraseñaa = Contraseña });
+        }
+        return Ingresado;
+    }
+
+      public static void CrearCuenta(Login user)
+{
+    string SQL = "INSERT INTO Usuario(Usuario, Contraseña, Nombre, Email, Telefono)";
+    SQL += " VALUES (@Usuarioo, @Contraseñaa, @Nombree, @Emaill, @Telefonoo)";
+
+    using (SqlConnection db = new SqlConnection(_connectionString))
+    {
+        db.Execute(SQL, new
+        {
+            Usuarioo = user.Usuario,
+            Contraseñaa = user.Contraseña,
+            Nombree = user.Nombre,
+            Emaill = user.Email,
+            Telefonoo = user.Telefono
+        });
+    }
+}
+}
