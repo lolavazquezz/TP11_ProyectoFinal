@@ -13,6 +13,15 @@ public static class BD{
         }
         return listaConciertos;
     }   
+     public static Concierto traerConcierto(int idconcierto)
+    {
+        Concierto MiConcierto = new Concierto();
+        using (SqlConnection db = new SqlConnection(ConnectionString))
+        {
+            string sql = "SELECT * FROM Concierto WHERE IdConcierto=@pIdConcierto";
+            MiConcierto = db.QueryFirstOrDefault<Concierto>(sql, new { pIdConcierto = idconcierto});        }
+        return listaConciertos;
+    }
     public static string traerNombre(int IdConcierto)
     {
         string nombre="";
@@ -47,9 +56,10 @@ public static class BD{
         List<Carrito> listaCarrito = new List<Carrito>();
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
-            string sql = "SELECT * WHERE IdTendencia = @id";
-            listaTendencia = db.Query<Tendencia>(sql, new { id = IdTendencia}).ToList();
+            string sql = "SELECT * FROM Carrito WHERE IdUsuario=@pIdUsuario";
+            listaCarrito = db.Query<Carrito>(sql, new { pIdUsuario=IdUsuario}).ToList();
         }
-        return listaTendencia;
+        return listaCarrito;
     }
-    
+
+}
