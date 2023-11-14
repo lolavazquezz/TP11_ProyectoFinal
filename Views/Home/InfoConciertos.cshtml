@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WorldConcerts</title>
+  </head>
+  <body>
+  <!-- Card Principal !-->
+@foreach (Concierto Con in ViewBag.listaConciertos)
+{
+
+<div class="card">
+  <div class="card-body">
+    <h3 class="card-title">@Con.Nombre</h3>
+  </div>
+  <img src="@Con.Foto" class="card-img-bottom" alt="...">
+    <p class="card-text">@con.Ubicacion</p>
+    <p class="card-text">@con.Fecha</p>
+    <p class="card-text">@con.Hora</p>
+</div>
+}
+
+<button type="button" href=<@Url.Action()> class="btn btn-success">Comprar</button>
+
+ <!-- Card terminos y condiciones !-->
+@foreach (Concierto Con in ViewBag.listaConciertos)
+{
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+   Terminos y condiciones
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cantidad máxima de entradas por compra: 5 </li> 
+    <li class="list-group-item">Menores de 12 deben entrar con acompañante</li>
+    <li class="list-group-item">Envio de entradas en menos de 10 dias</li>
+    <li class="list-group-item">Llevar dni fisico</li>
+    <li class="list-group-item">En total quedan en stock</li> <p> @con.Stock </p>
+    <li class="list-group-item">E-TICKET</li>
+  </ul>
+</div>
+}
+  </body>
+</html>
