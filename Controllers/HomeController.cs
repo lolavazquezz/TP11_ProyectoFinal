@@ -6,26 +6,34 @@ namespace TP11_ProyectoFinal.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
     public IActionResult Index()
     {
+        ViewBag.ListConciertos = BD.listaConciertos();
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult VerMasInfo(int idConcierto)
     {
-        return View();
+        return BD.traerConcierto(idConcierto);
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    public IActionResult Login(string UN, string PW)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        ViewBag.usuario=BD.login(UN,PW);
+        if(ViewBag.usuario == null){
+             ViewBag.Error = "El usuario o la contraseña es incorrecto.";
+            return View("Login");
+        }
+        return View("Bienvenida");
+    }
+
+    [HttpPost]public IActionResult Registro(Usuario usuario)
+    {
+        ViewBag.uSuario=BD.BuscarUser(usuario.UserName);
+        if(ViewBag.uSuario==null){
+           BD.RegistroUser(usuario);
+            return View("Registro");
+        }
+        return View("Bienvenida");
     }
 }
