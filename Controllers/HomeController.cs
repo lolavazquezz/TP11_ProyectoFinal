@@ -19,44 +19,43 @@ public class HomeController : Controller
 
      public IActionResult login(string username, string contraseña)
     {
-        usuario user = bd.login(username, contraseña);
+        Usuario user = BD.login(username, contraseña);
         if (user == null){
             ViewBag.mensajeError = "Usuario o contraseña incorrecta";
-            return View("index");
+            return View("Index");
         }
         else
         {
-            ViewBag.username = user.username;
-            ViewBag.nombre = user.nombre;
-            ViewBag.email = user.email;
-            ViewBag.telefono = user.telefono;
+            ViewBag.username = user.Username;
+            ViewBag.nombre = user.Nombre;
+            ViewBag.email = user.Email;
             return View("bienvenido");
         }
     }
     public IActionResult registrarse(){
         return View();
     }
-    public IActionResult crearUsuario(usuario usu){
+    public IActionResult crearUsuario(Usuario usu){
         ViewBag.error1 = "";
         ViewBag.error2 = "";
         ViewBag.error3 = "";
         if (usu.contraseña != usu.contraseña2){
             ViewBag.error1 = "Verifique que las dos contraseñas sean iguales";
         }
-        bool existe = bd.existe(usu.username);
+        bool existe = BD.existe(usu.Username);
         if (existe) {
             ViewBag.error2 = "El nombre de usuario ya existe, ingrese uno nuevo.";
         }
-        bool existem = bd.existeMail(usu.email);
+        bool existem = BD.existeMail(usu.Email);
         if (existem) {
             ViewBag.error3 = "El email ya esta registrado en una cuenta, ingrese uno nuevo.";
         }
         else if ((!existe)&&(!existem)&&(ViewBag.error1 == "")) {
-            bd.crearUsuario(usu);
-            ViewBag.username = usu.username;
-            ViewBag.nombre = usu.nombre;
-            ViewBag.email = usu.email;
-            ViewBag.telefono = usu.telefono;
+            BD.crearUsuario(usu);
+            ViewBag.username = usu.Username;
+            ViewBag.nombre = usu.Nombre;
+            ViewBag.email = usu.Email;
+            ViewBag.telefono = usu.Telefono;
             return View("bienvenido");
         }
         return View("registrarse", usu);
@@ -66,12 +65,12 @@ public class HomeController : Controller
     }
     public IActionResult traerPregunta(string email){
         ViewBag.validar="";
-        bool valido = bd.existeMail(email);
+        bool valido = BD.existeMail(email);
         if (!valido){
             ViewBag.validar="El mail ingresado no pertenece a una cuenta";
             return View("olvideContra");
         }
-        ViewBag.pregunta = bd.traerPregunta(email);
+        ViewBag.pregunta = BD.traerPregunta(email);
         ViewBag.email= email;
         return View("traerContra", ViewBag.email);
     }
@@ -79,12 +78,12 @@ public class HomeController : Controller
         ViewBag.validar ="";
         ViewBag.pregunta = pregunta;
         ViewBag.email = email;
-        bool valido = bd.validarRta(respuesta);
+        bool valido = BD.validarRta(respuesta);
         if (!valido){
             ViewBag.validar="Respuesta incorrecta";
             return View("traerContra", ViewBag.email);
         }
-        string contraseña = bd.traerContra(email);
+        string contraseña = BD.traerContra(email);
         ViewBag.contraseña = contraseña;
         return View("mostrarContra");
     }
