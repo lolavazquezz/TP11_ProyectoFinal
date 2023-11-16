@@ -9,184 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP11_ProyectoFinal
 build_property.RootNamespace = TP11_ProyectoFinal
-<<<<<<< HEAD
-build_property.ProjectDir = z:\Programacion2023\Tp_integrador\TP11_ProyectoFinal\
+build_property.ProjectDir = Z:\Programacion\Tp_Integrador\TP11_ProyectoFinal\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = z:\Programacion2023\Tp_integrador\TP11_ProyectoFinal
+build_property.MSBuildProjectDirectory = Z:\Programacion\Tp_Integrador\TP11_ProyectoFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/Index.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Home/ComprarTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wcmFyVGlja2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/InfoConciertos.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Home/InfoConciertos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvQ29uY2llcnRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/MostrarContra.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Home/MostrarContra.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3N0cmFyQ29udHJhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/OlvideContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPbHZpZGVDb250cmEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/Privacy.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/Registro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/Show.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Home/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Home/TraerContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFlckNvbnRyYS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Shared/Error.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/_ViewImports.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/_ViewStart.cshtml]
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion2023/Tp_integrador/TP11_ProyectoFinal/Views/Shared/_Layout.cshtml]
-=======
-build_property.ProjectDir = Z:\Programacion\TpIntegrador\TP11_ProyectoFinal\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = Z:\Programacion\TpIntegrador\TP11_ProyectoFinal
-build_property._RazorSourceGeneratorDebug = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/InfoConciertos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcSW5mb0NvbmNpZXJ0b3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/MostrarContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcTW9zdHJhckNvbnRyYS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/OlvideContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcT2x2aWRlQ29udHJhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/Registro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcUmVnaXN0cm8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/Show.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcU2hvdy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Home/TraerContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXEhvbWVcVHJhZXJDb250cmEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/InfoConciertos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvQ29uY2llcnRvcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/MostrarContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3N0cmFyQ29udHJhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/OlvideContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPbHZpZGVDb250cmEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/Registro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/Show.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Home/TraerContra.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFlckNvbnRyYS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/TP11_ProyectoFinal/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VFAxMV9Qcm95ZWN0b0ZpbmFsXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-kj4fvc3r3a
-
-[Z:/Programacion/TpIntegrador/TP11_ProyectoFinal/Views/Shared/_Layout.cshtml]
->>>>>>> ac84b79cf13c560c54735ce75233fcd4d1208ff2
+[Z:/Programacion/Tp_Integrador/TP11_ProyectoFinal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-i8b6ukccrc
