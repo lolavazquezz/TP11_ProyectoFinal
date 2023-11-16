@@ -530,39 +530,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\47805969\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\47572491\\.nuget\\packages\\": {},
->>>>>>> ac84b79cf13c560c54735ce75233fcd4d1208ff2
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "Z:\\Programacion2023\\Tp_integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
+      "projectUniqueName": "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
       "projectName": "TP11_ProyectoFinal",
-      "projectPath": "Z:\\Programacion2023\\Tp_integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
-      "packagesPath": "C:\\Users\\47805969\\.nuget\\packages\\",
-      "outputPath": "Z:\\Programacion2023\\Tp_integrador\\TP11_ProyectoFinal\\obj\\",
-=======
-      "projectUniqueName": "Z:\\Programacion\\TpIntegrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
-      "projectName": "TP11_ProyectoFinal",
-      "projectPath": "Z:\\Programacion\\TpIntegrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
+      "projectPath": "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
       "packagesPath": "C:\\Users\\47572491\\.nuget\\packages\\",
-      "outputPath": "Z:\\Programacion\\TpIntegrador\\TP11_ProyectoFinal\\obj\\",
->>>>>>> ac84b79cf13c560c54735ce75233fcd4d1208ff2
+      "outputPath": "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\47805969\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\47572491\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> ac84b79cf13c560c54735ce75233fcd4d1208ff2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -626,5 +610,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

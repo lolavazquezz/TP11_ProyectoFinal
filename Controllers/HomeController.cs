@@ -12,10 +12,23 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult VerMasInfo(int idConcierto)
-    {
-        return BD.traerConcierto(idConcierto);
-    }
+public IActionResult VerMasInfo(int idConcierto)
+{
+    List<Concierto> listaConciertos = new List<Concierto>();
+    Concierto concierto = BD.traerConcierto(idConcierto);
+    ViewBag.ListConciertos = listaConciertos;
+
+    return View(concierto); 
+}
+
+
+
+
+
+
+
+
+
 
     public IActionResult registrarse(){
         return View();
