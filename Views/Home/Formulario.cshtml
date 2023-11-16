@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WorldConcerts</title>
+  </head>
+  <body>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+   Información de Compra
+  </div>
+  <form action='@Url.Action("FormularioCompra")' method="post">
+    <ul class="list-group list-group-flush"></ul>
+        <li class="list-group-item"><Select name="Cantidad">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </Select></li>
+    <li class="list-group-item"><input type="text" name="Email" placeholder="Email" required></li>
+    @foreach (Concierto Con in ViewBag.InfoCompra)
+    {
+        <li class="list-group-item"><div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1" value="InfoCompra.ID"><p>@ViewBag.Ubicacion - @ViewBag.Fecha - @ViewBag.Hora</p></label>
+        </div>
+        </li> 
+    }
+  </ul>
+    <input type="submit" value="Comprar">
+  </form>
+</div>
+  </body>
+</html>
