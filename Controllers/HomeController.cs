@@ -21,20 +21,7 @@ public class HomeController : Controller
         return View();
     }
     public IActionResult crearUsuario(Usuario usu){
-        ViewBag.error1 = "";
-        ViewBag.error2 = "";
-        
-        bool existem = BD.existeMail(usu.Email);
-        if (existem) {
-            ViewBag.error2 = "El email ya esta registrado en una cuenta, ingrese uno nuevo.";
-        }
-        else if ((!existem)&&(ViewBag.error1 == "")) {
-            BD.crearUsuario(usu);
-            ViewBag.nombre = usu.Nombre;
-            ViewBag.email = usu.Email;
-            ViewBag.telefono = usu.Clave;
-            return View("bienvenido");
-        }
-        return View("registrarse", usu);
+        BD.crearUsuario(usu);
     }
+    
 }

@@ -61,74 +61,11 @@ public static class BD{
         }
         return listaCarrito;
     }
-    
-    public static Usuario login(string username, string contraseña)
-    {
-        Usuario user = null;
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "SELECT * FROM Usuario WHERE username = @pusername AND contraseña = @pcontra";
-            user = db.QueryFirstOrDefault<Usuario>(sql, new { pusername = username, pcontra = contraseña });
-        }
-        return user;
-    }
     public static void crearUsuario(Usuario usu){
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
             string sql = "INSERT INTO Usuario(Dni,Nombre,Email,Clave) VALUES (@pDni, @pNombre, @pEmail, @pClave)";
             db.Execute(sql, new {pDni = usu.Dni, pNombre = usu.Nombre, pEmail = usu.Email, pClave = usu.Clave});
         }
-    }    
-    public static string traerPregunta(string email){
-        string pregunta ="";
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "SELECT pregunta FROM Usuario WHERE email = @puemail";
-            pregunta = db.QueryFirstOrDefault<string>(sql, new { puemail = email});
-        }
-        return pregunta;
-    }
-    public static bool validarRta(string respuesta){
-        int cant=0;
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "SELECT COUNT(*) FROM Usuario WHERE respuesta = @prespuesta";
-            cant = db.QueryFirstOrDefault<int>(sql, new { prespuesta = respuesta});
-        }
-        if (cant > 0) return true;
-        else return false;
-    }
-    public static string traerContra(string email){
-        string contra = "";
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "SELECT contraseña FROM Usuario WHERE email = @puemail";
-            contra = db.QueryFirstOrDefault<string>(sql, new { puemail = email});
-        }
-        return contra;
-    }
-    public static bool existe(string username)
-    {
-        int cant=0;
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string lowerUsername = username.ToLower();
-            string sql = "SELECT COUNT(*) FROM Usuario WHERE LOWER(username) = @pusername";
-            cant = db.QueryFirstOrDefault<int>(sql, new { pusername = lowerUsername});
-        }
-        if (cant > 0) return true;
-        else return false;
-    }
-    public static bool existeMail(string email)
-    {
-        int cant=0;
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string lowerMail = email.ToLower();
-            string sql = "SELECT COUNT(*) FROM Usuario WHERE LOWER(email) = @pemail";
-            cant = db.QueryFirstOrDefault<int>(sql, new { pemail = lowerMail});
-        }
-        if (cant > 0) return true;
-        else return false;
     }
 }
