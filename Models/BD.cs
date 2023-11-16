@@ -76,7 +76,7 @@ public static class BD{
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
             string sql = "INSERT INTO Usuario(Dni,Nombre,Email,Clave) VALUES (@pDni, @pNombre, @pEmail, @pClave)";
-            db.Execute(sql, new {pDni = usu.Dni, pNombre = usu.Nombre, pnombre = usu.nombre, pemail = usu.email, ptelefono = usu.telefono, ppregunta = usu.pregunta, prespuesta = usu.respuesta});
+            db.Execute(sql, new {pDni = usu.Dni, pNombre = usu.Nombre, pEmail = usu.Email, pClave = usu.Clave});
         }
     }    
     public static string traerPregunta(string email){
