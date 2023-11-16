@@ -43,10 +43,10 @@ public static class BD{
         return listaInfo;
     }
    
-    public static void InsertarCompra(string email, int idConcierto, DateTime fecha, int cantidad){
-        string SQL = "INSERT INTO Compra(Email, IdConcierto, Fecha, Cantidad) VALUES (@pEmail, @pIdConcierto, @pFecha, @pCantidad)";
+    public static void InsertarCompra(string email, int idConcierto, int cantidad){
+        string SQL = "INSERT INTO Compra(Email, IdConcierto, Cantidad) VALUES (@pEmail, @pIdConcierto, @pCantidad)";
         using(SqlConnection db = new SqlConnection(_connectionString)){
-            db.Execute(SQL, new {pEmail = email, pIdConcierto = idConcierto, pFecha = fecha, pCantidad = cantidad});
+            db.Execute(SQL, new {pEmail = email, pIdConcierto = idConcierto, pCantidad = cantidad});
         }
     }
 }

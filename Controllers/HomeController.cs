@@ -20,7 +20,8 @@ public IActionResult VerMasInfo(int idConcierto)
 
     return View(concierto); 
 }
-    public IActionResult Comprar(){
+    public IActionResult FormularioCompra(int Cantidad, string Email, int idConcierto){
+        /*llamar a InsertarCompra*/
         return View();
     }
      
