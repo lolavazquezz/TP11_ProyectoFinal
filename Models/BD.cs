@@ -20,7 +20,7 @@ public static class BD{
         {
             string sql = "SELECT * FROM Concierto WHERE IdConcierto=@pIdConcierto";
             MiConcierto = db.QueryFirstOrDefault<Concierto>(sql, new { pIdConcierto = idconcierto});        }
-        return listaConciertos;
+        return MiConcierto;
     }
     public static string traerNombre(int IdConcierto)
     {
@@ -62,21 +62,21 @@ public static class BD{
         return listaCarrito;
     }
     
-    public static usuario login(string username, string contraseña)
+    public static Usuario login(string username, string contraseña)
     {
-        usuario user = null;
+        Usuario user = null;
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
             string sql = "SELECT * FROM Usuario WHERE username = @pusername AND contraseña = @pcontra";
-            user = db.QueryFirstOrDefault<usuario>(sql, new { pusername = username, pcontra = contraseña });
+            user = db.QueryFirstOrDefault<Usuario>(sql, new { pusername = username, pcontra = contraseña });
         }
         return user;
     }
-    public static void crearUsuario(usuario usu){
+    public static void crearUsuario(Usuario usu){
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
-            string sql = "INSERT INTO Usuario(username, contraseña, nombre, email, telefono, pregunta, respuesta) VALUES (@pusername, @pcontraseña, @pnombre, @pemail, @ptelefono, @ppregunta, @prespuesta)";
-            db.Execute(sql, new {pusername = usu.username, pcontraseña = usu.contraseña, pnombre = usu.nombre, pemail = usu.email, ptelefono = usu.telefono, ppregunta = usu.pregunta, prespuesta = usu.respuesta});
+            string sql = "INSERT INTO Usuario(Dni,Nombre,Email,Clave) VALUES (@pDni, @pNombre, @pEmail, @pClave)";
+            db.Execute(sql, new {pDni = usu.Dni, pNombre = usu.Nombre, pnombre = usu.nombre, pemail = usu.email, ptelefono = usu.telefono, ppregunta = usu.pregunta, prespuesta = usu.respuesta});
         }
     }    
     public static string traerPregunta(string email){
