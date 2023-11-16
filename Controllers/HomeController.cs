@@ -8,7 +8,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        ViewBag.ListConciertos = BD.listaConciertos();
+        ViewBag.ListConciertos = BD.traerConciertos();
         return View();
     }
 
@@ -26,7 +26,6 @@ public class HomeController : Controller
         }
         else
         {
-            ViewBag.username = user.Username;
             ViewBag.nombre = user.Nombre;
             ViewBag.email = user.Email;
             return View("bienvenido");
@@ -38,24 +37,19 @@ public class HomeController : Controller
     public IActionResult crearUsuario(Usuario usu){
         ViewBag.error1 = "";
         ViewBag.error2 = "";
-        ViewBag.error3 = "";
         if (usu.contraseña != usu.contraseña2){
             ViewBag.error1 = "Verifique que las dos contraseñas sean iguales";
         }
-        bool existe = BD.existe(usu.Username);
-        if (existe) {
-            ViewBag.error2 = "El nombre de usuario ya existe, ingrese uno nuevo.";
-        }
+        
         bool existem = BD.existeMail(usu.Email);
         if (existem) {
-            ViewBag.error3 = "El email ya esta registrado en una cuenta, ingrese uno nuevo.";
+            ViewBag.error2 = "El email ya esta registrado en una cuenta, ingrese uno nuevo.";
         }
-        else if ((!existe)&&(!existem)&&(ViewBag.error1 == "")) {
+        else if ((!existem)&&(ViewBag.error1 == "")) {
             BD.crearUsuario(usu);
-            ViewBag.username = usu.Username;
             ViewBag.nombre = usu.Nombre;
             ViewBag.email = usu.Email;
-            ViewBag.telefono = usu.Telefono;
+            ViewBag.telefono = usu.Clave;
             return View("bienvenido");
         }
         return View("registrarse", usu);
