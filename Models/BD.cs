@@ -43,29 +43,10 @@ public static class BD{
         return listaInfo;
     }
    
-    public static void AgregarAlCarrito (Carrito carr)
-    {
-            string sql = "INSERT INTO Carrito(IdUsuario, IdConcierto) VALUES (@pIdUsuario, @pIdConcierto)";
-            using(SqlConnection db = new SqlConnection(ConnectionString)){
-            db.Execute(sql, new {pIdUsuario = carr.IdUsuario, pIdCarrito = carr.IdConcierto});
-        }
-       
-    }
-       public static List<Carrito> traerCarrito(int IdUsuario)
-    {
-        List<Carrito> listaCarrito = new List<Carrito>();
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "SELECT * FROM Carrito WHERE IdUsuario=@pIdUsuario";
-            listaCarrito = db.Query<Carrito>(sql, new { pIdUsuario=IdUsuario}).ToList();
-        }
-        return listaCarrito;
-    }
-    public static void crearUsuario(Usuario usu){
-        using (SqlConnection db = new SqlConnection(ConnectionString))
-        {
-            string sql = "INSERT INTO Usuario(Dni,Nombre,Email,Clave) VALUES (@pDni, @pNombre, @pEmail, @pClave)";
-            db.Execute(sql, new {pDni = usu.Dni, pNombre = usu.Nombre, pEmail = usu.Email, pClave = usu.Clave});
+    public static void InsertarCompra(string email, int idConcierto, DateTime fecha, int cantidad){
+        string SQL = "INSERT INTO Compra(Email, IdConcierto, Fecha, Cantidad) VALUES (@pEmail, @pIdConcierto, @pFecha, @pCantidad)";
+        using(SqlConnection db = new SqlConnection(_connectionString)){
+            db.Execute(SQL, new {pEmail = email, pIdConcierto = idConcierto, pFecha = fecha, pCantidad = cantidad});
         }
     }
 }

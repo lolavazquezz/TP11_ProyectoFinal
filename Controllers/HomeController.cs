@@ -20,21 +20,9 @@ public IActionResult VerMasInfo(int idConcierto)
 
     return View(concierto); 
 }
-
-
-
-
-
-
-
-
-
-
-    public IActionResult registrarse(){
+    public IActionResult Comprar(){
         return View();
     }
-    public IActionResult crearUsuario(Usuario usu){
-        BD.crearUsuario(usu);
-    }
-    
+     
+
 }
