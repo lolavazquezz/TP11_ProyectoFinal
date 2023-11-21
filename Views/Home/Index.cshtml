@@ -21,13 +21,13 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../imagenes/tw.jpeg" class="d-block w-100">
+      <img src="../imagenes/tw.jpg" class="d-block w-100">
       <div class="carousel-caption d-none d-md-block">
         <h2>The Weeknd</h2>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../imagenes/ra.jpeg" class="d-block w-100">
+      <img src="../imagenes/ra.jpg" class="d-block w-100">
       <div class="carousel-caption d-none d-md-block">
         <h2>Rauw Alejandro</h2>
       </div>
@@ -42,15 +42,14 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<!-- search -->
+  <!-- search -->
   <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-<!-- Navbar !-->
+      <!-- Navbar !-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,10 +60,10 @@
             Ubicacion
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" onclick="mostrarPorPais('Argentina')">Argentina</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorPais('Chile')">Chile</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorPais('Colombia')">Colombia</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorPais('Uruguay')">Uruguay</a></li>
+            <li><a class="dropdown-item">Argentina</a></li>
+            <li><a class="dropdown-item">Chile</a></li>
+            <li><a class="dropdown-item">Colombia</a></li>
+            <li><a class="dropdown-item">Uruguay</a></li>
           </ul>
         </li>
                 <li class="nav-item dropdown">
@@ -72,10 +71,10 @@
             Género
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" onclick="mostrarPorGenero('Rap')">Rap</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorGenero('Rock')">Rock</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorGenero('Trap')">Trap</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorGenero('Pop')">Pop</a></li>
+            <li><a class="dropdown-item">Rap</a></li>
+            <li><a class="dropdown-item">Rock</a></li>
+            <li><a class="dropdown-item">Trap</a></li>
+            <li><a class="dropdown-item">Pop</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -83,18 +82,18 @@
             Mes
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Enero')">Enero</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Febrero')">Febrero</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Marzo')">Marzo</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Abril')">Abril</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Mayo')">Mayo</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Junio')">Junio</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Julio')">Julio</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Agosto')">Agosto</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Septiembre')">Septiembre</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Octubre')">Octubre</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Noviembre')">Noviembre</a></li>
-            <li><a class="dropdown-item" onclick="mostrarPorMes('Diciembre')">Diciembre</a></li>
+            <li><a class="dropdown-item">Enero</a></li>
+            <li><a class="dropdown-item">Febrero</a></li>
+            <li><a class="dropdown-item">Marzo</a></li>
+            <li><a class="dropdown-item">Abril</a></li>
+            <li><a class="dropdown-item">Mayo</a></li>
+            <li><a class="dropdown-item">Junio</a></li>
+            <li><a class="dropdown-item">Julio</a></li>
+            <li><a class="dropdown-item">Agosto</a></li>
+            <li><a class="dropdown-item">Septiembre</a></li>
+            <li><a class="dropdown-item">Octubre</a></li>
+            <li><a class="dropdown-item">Noviembre</a></li>
+            <li><a class="dropdown-item">Diciembre</a></li>
           </ul>
         </li>
 
@@ -103,7 +102,6 @@
     </div>
   </div>
 </nav>
-
 <!-- body-->
  @foreach (Concierto Con in ViewBag.ListConciertos)
   {
