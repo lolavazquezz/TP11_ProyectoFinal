@@ -105,16 +105,16 @@
 </nav>
 
 <!-- body-->
-    @foreach (Concierto Con in ViewBag.ListConciertos)
-{
-   <div class="card" style="width: 18rem;">
-  <img src="@ViewBag.Con.Imagen" class="card-img-top">
-  <div class="card-body">
-    <h5 class="card-title">@Con.Nombre</h5>
-    <a href="#" class="btn btn-primary">Ver informacion</a>
-  </div>
-</div>
-}
+ @foreach (Concierto Con in ViewBag.ListConciertos)
+  {
+    <div class="card" style="width: 18rem;">
+      <img src="@Con.Imagen" class="card-img-top" alt="@Con.Nombre">
+      <div class="card-body">
+        <h5 class="card-title">@Con.Nombre</h5>
+        <a href="#" class="btn btn-primary">Ver información</a>
+      </div>
+    </div>
+  }
 
   </body>
 </html>
