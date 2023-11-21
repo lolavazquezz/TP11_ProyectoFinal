@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\imagenes\\bb.png"
     },
     {
+      "Id": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\logo.PNG",
+      "PackagePath": "staticwebassets\\imagenes\\logo.PNG"
+    },
+    {
       "Id": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\ra.jpg",
       "PackagePath": "staticwebassets\\imagenes\\ra.jpg"
     },

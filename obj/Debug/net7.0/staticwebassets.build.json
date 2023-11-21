@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fTrGJ0DJmTffskAWmOEgd+TaTKTIw4kPPjWY/DYe3bE=",
+  "Hash": "1fM0sXPBPNzdaagzCBgfvuqYhSum0YfrupqAIxEmFNY=",
   "Source": "TP11_ProyectoFinal",
   "BasePath": "_content/TP11_ProyectoFinal",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\bb.png"
+    },
+    {
+      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\logo.PNG",
+      "SourceId": "TP11_ProyectoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
+      "BasePath": "_content/TP11_ProyectoFinal",
+      "RelativePath": "imagenes/logo.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\logo.PNG"
     },
     {
       "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\ra.jpg",
