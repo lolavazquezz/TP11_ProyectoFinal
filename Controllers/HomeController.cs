@@ -17,6 +17,7 @@ public IActionResult VerMasInfo(int idConcierto)
     List<Concierto> listaConciertos = new List<Concierto>();
     Concierto concierto = BD.traerConcierto(idConcierto);
     ViewBag.ListConciertos = listaConciertos;
+    ViewBag.ObjetoConcierto = new Concierto();
 
     return View(concierto); 
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {}
+    "C:\\Users\\47572491\\Desktop\\Progrqamacion\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {}
   },
   "projects": {
-    "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {
+    "C:\\Users\\47572491\\Desktop\\Progrqamacion\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
+        "projectUniqueName": "C:\\Users\\47572491\\Desktop\\Progrqamacion\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
         "projectName": "TP11_ProyectoFinal",
-        "projectPath": "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
+        "projectPath": "C:\\Users\\47572491\\Desktop\\Progrqamacion\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
         "packagesPath": "C:\\Users\\47572491\\.nuget\\packages\\",
-        "outputPath": "Z:\\Programacion\\Tp_Integrador\\TP11_ProyectoFinal\\obj\\",
+        "outputPath": "C:\\Users\\47572491\\Desktop\\Progrqamacion\\TP11_ProyectoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -45,7 +45,7 @@ public static class BD{
    
     public static void InsertarCompra(string email, int idConcierto, int cantidad){
         string SQL = "INSERT INTO Compra(Email, IdConcierto, Cantidad) VALUES (@pEmail, @pIdConcierto, @pCantidad)";
-        using(SqlConnection db = new SqlConnection(_connectionString)){
+        using(SqlConnection db = new SqlConnection(ConnectionString)){
             db.Execute(SQL, new {pEmail = email, pIdConcierto = idConcierto, pCantidad = cantidad});
         }
     }
