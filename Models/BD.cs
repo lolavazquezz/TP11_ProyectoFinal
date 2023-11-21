@@ -13,14 +13,15 @@ public static class BD{
         }
         return listaConciertos;
     }   
-     public static Concierto traerConcierto(int idconcierto)
+     public static List<Concierto> traerConciertosIguales(string nombre)
     {
-        Concierto MiConcierto = new Concierto();
+        List<Concierto> MisConciertos= new List<Concierto>();
         using (SqlConnection db = new SqlConnection(ConnectionString))
         {
-            string sql = "SELECT * FROM Concierto WHERE IdConcierto=@pIdConcierto";
-            MiConcierto = db.QueryFirstOrDefault<Concierto>(sql, new { pIdConcierto = idconcierto});        }
-        return MiConcierto;
+            string sql = "SELECT * FROM Concierto WHERE Nombre=@pnombre";
+             MisConciertos =db.Query<Concierto>(sql, new { pnombre = nombre}).ToList();
+        }
+        return MisConciertos;
     }
     public static string traerNombre(int IdConcierto)
     {

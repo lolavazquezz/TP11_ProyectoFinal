@@ -12,14 +12,12 @@ public class HomeController : Controller
         return View();
     }
 
-public IActionResult VerMasInfo(int idConcierto)
+public IActionResult VerMasInfo(string nombre)
 {
-    List<Concierto> listaConciertos = new List<Concierto>();
-    Concierto concierto = BD.traerConcierto(idConcierto);
-    ViewBag.ListConciertos = listaConciertos;
-    ViewBag.ObjetoConcierto = new Concierto();
-
-    return View(concierto); 
+    ViewBag.concierto= new List<Concierto>();
+    ViewBag.conciertos = BD.traerConciertosIguales(nombre);
+    ViewBag.nombreConcierto=nombre;
+    return View("InfoConciertos"); 
 }
     public IActionResult FormularioCompra(int Cantidad, string Email, int idConcierto){
         /*llamar a InsertarCompra*/

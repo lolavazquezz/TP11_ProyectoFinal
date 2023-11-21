@@ -111,7 +111,7 @@
       <img src="@Con.Imagen" class="card-img-top" alt="@Con.Nombre">
       <div class="card-body">
         <h5 class="card-title">@Con.Nombre</h5>
-        <a href="#" class="btn btn-primary">Ver información</a>
+        <a href='@Url.Action("InfoConciertos", new {nombre=Con.Nombre})' class="btn btn-primary">Ver información</a>
       </div>
     </div>
   }
