@@ -124,10 +124,10 @@ public IActionResult GuardarCompra(int cantidad, string email, int idconcierto){
 
     //Retorna la nueva cantidad de likes
     [HttpPost]
-    public int LikesAjax(int IdJuego, int cantLikes)
+    public int LikesAjax(int IdConcierto, int cantLikes)
     {
-        BD.AgregarLikes(IdJuego, cantLikes);
-        return BD.VerCantLikes(IdJuego);
+        BD.AgregarLikes(IdConcierto, cantLikes);
+        return BD.VerCantLikes(IdConcierto);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
