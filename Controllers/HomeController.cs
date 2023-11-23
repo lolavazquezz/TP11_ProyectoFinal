@@ -1,16 +1,6 @@
-
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using TP11_ProyectoFinal.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
-using System.IO;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 namespace TP11_ProyectoFinal.Controllers;
 
 public class HomeController : Controller
