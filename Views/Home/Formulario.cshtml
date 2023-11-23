@@ -10,7 +10,7 @@
   <div class="card-header">
    Información de Compra
   </div>
-  <form action='@Url.Action("GuardarCompra", new{cantidad=Cantidad}, new{email=Email}, new{idconcierto=idConcierto})' method="post">
+  <form action='@Url.Action("GuardarCompra")' method="post">
     <ul class="list-group list-group-flush"></ul>
         <li class="list-group-item">
         <Select name="Cantidad">

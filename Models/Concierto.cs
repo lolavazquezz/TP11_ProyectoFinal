@@ -2,8 +2,8 @@
 {
       public int IdConcierto{get; set;}
       public string Nombre{get; set;}
-      public DateTime Fecha{get; set;}
-      public DateTime Hora{get; set;}
+      public dateTime Fecha{get; set;}
+      public Time Hora{get; set;}
       public int IdArtista{get; set;}
      public string Ubicacion{get; set;}
      public string Pais {get;set;} 
@@ -16,7 +16,7 @@
 
     }
 
-     public Concierto(string Nombre, DateTime Fecha,  DateTime Hora, int IdArtista,  string Ubicacion , string pais, string Imagen, string Genero, int Stock, String Mes){
+     public Concierto(string Nombre, Date Fecha,  dateTime Hora, int IdArtista,  string Ubicacion , string pais, string Imagen, string Genero, int Stock, String Mes){
         
     }
 }
