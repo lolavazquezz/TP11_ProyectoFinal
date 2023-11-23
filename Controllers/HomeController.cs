@@ -23,7 +23,7 @@ public IActionResult FormularioCompra(){
         return View("Formulario");
     }
 public IActionResult GuardarCompra(int cantidad, string email, int idconcierto){
-        BD.InsertarCompra(cantidad, email, idconcierto);
+      //  BD.InsertarCompra(cantidad, email, idconcierto);
         return View("");
     }
      

@@ -11,12 +11,13 @@
      public string Genero{get; set;}
      public int Stock{get; set;}
      public string Mes{get; set;}
+     public int CantLikes{get; set;}
 
      public Concierto(){
 
     }
 
-     public Concierto(string Nombre, DateTime Fecha,  DateTime Hora, int IdArtista,  string Ubicacion , string pais, string Imagen, string Genero, int Stock, String Mes){
+     public Concierto(string Nombre, DateTime Fecha,  DateTime Hora, int IdArtista,  string Ubicacion , string pais, string Imagen, string Genero, int Stock, String Mes, int CantLikes){
         
     }
 }
