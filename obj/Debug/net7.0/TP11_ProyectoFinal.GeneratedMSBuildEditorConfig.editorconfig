@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = z:\2023\PROGRAMACION\TP11_ProyectoFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[z:/2023/PROGRAMACION/TP11_ProyectoFinal/Views/Home/ComprarTicket.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wcmFyVGlja2V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [z:/2023/PROGRAMACION/TP11_ProyectoFinal/Views/Home/Formulario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtdWxhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,8 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvQ29uY2llcnRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[z:/2023/PROGRAMACION/TP11_ProyectoFinal/Views/Home/IniciarSesion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaWFyU2VzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/2023/PROGRAMACION/TP11_ProyectoFinal/Views/Home/OlvidoContraseña.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPbHZpZG9Db250cmFzZcOxYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [z:/2023/PROGRAMACION/TP11_ProyectoFinal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/2023/PROGRAMACION/TP11_ProyectoFinal/Views/Home/Registrarse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [z:/2023/PROGRAMACION/TP11_ProyectoFinal/Views/Home/Show.cshtml]

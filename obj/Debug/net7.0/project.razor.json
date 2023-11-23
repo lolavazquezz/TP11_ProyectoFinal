@@ -18660,8 +18660,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\Registrarse.cshtml",
+      "TargetPath": "Views\\Home\\Registrarse.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\OlvidoContraseña.cshtml",
+      "TargetPath": "Views\\Home\\OlvidoContraseña.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18680,11 +18690,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\ComprarTicket.cshtml",
-      "TargetPath": "Views\\Home\\ComprarTicket.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -18697,6 +18702,11 @@
     {
       "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\IniciarSesion.cshtml",
+      "TargetPath": "Views\\Home\\IniciarSesion.cshtml",
       "FileKind": "mvc"
     }
   ],
