@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "f+2wndJUzRWY70XSMI7lLx4L7+IWPxVNAt77Nk+nXC8=",
-=======
-  "Hash": "1fM0sXPBPNzdaagzCBgfvuqYhSum0YfrupqAIxEmFNY=",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+  "Hash": "LZ07PDLKVeFp3rlfZ+7k605ZVR4NmMet1C9AKy/zHBo=",
   "Source": "TP11_ProyectoFinal",
   "BasePath": "_content/TP11_ProyectoFinal",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "TP11_ProyectoFinal\\wwwroot",
       "Source": "TP11_ProyectoFinal",
-<<<<<<< HEAD
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP11_ProyectoFinal.styles.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP11_ProyectoFinal.styles.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP11_ProyectoFinal.styles.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Computed",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "TP11_ProyectoFinal.styles.css",
       "AssetKind": "All",
@@ -46,23 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP11_ProyectoFinal.styles.css"
+      "OriginalItemSpec": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP11_ProyectoFinal.styles.css"
     },
     {
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP11_ProyectoFinal.bundle.scp.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP11_ProyectoFinal.bundle.scp.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\TP11_ProyectoFinal.styles.css"
-    },
-    {
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP11_ProyectoFinal.bundle.scp.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Computed",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "TP11_ProyectoFinal.bundle.scp.css",
       "AssetKind": "All",
@@ -73,23 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP11_ProyectoFinal.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP11_ProyectoFinal.bundle.scp.css"
     },
     {
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\css\\site.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "OriginalItemSpec": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TP11_ProyectoFinal.bundle.scp.css"
-    },
-    {
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\css\\site.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -103,17 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\DB_Conciertos.sql",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\DB_Conciertos.sql",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\DB_Conciertos.sql",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "DB_Conciertos.sql",
       "AssetKind": "All",
@@ -127,17 +85,10 @@
       "OriginalItemSpec": "wwwroot\\DB_Conciertos.sql"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\favicon.ico",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\favicon.ico",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -151,17 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\imagenes\\bb.png",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\bb.png",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\bb.png",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "imagenes/bb.png",
       "AssetKind": "All",
@@ -175,16 +119,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\bb.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\imagenes\\ra.jpg",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\logo.PNG",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\logo.PNG",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "imagenes/logo.PNG",
       "AssetKind": "All",
@@ -198,11 +136,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\logo.PNG"
     },
     {
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\ra.jpg",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\ra.jpg",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "imagenes/ra.jpg",
       "AssetKind": "All",
@@ -216,17 +153,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\ra.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\imagenes\\tw.jpg",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\tw.jpg",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\imagenes\\tw.jpg",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "imagenes/tw.jpg",
       "AssetKind": "All",
@@ -240,17 +170,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\tw.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\js\\site.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\js\\site.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -264,17 +187,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -288,17 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -312,17 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -336,17 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -360,17 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -384,17 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -408,17 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -432,17 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -456,17 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -480,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -504,17 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -528,17 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -552,17 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -576,17 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -600,17 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -624,17 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -648,17 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -672,17 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -696,17 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -720,17 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -744,17 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -768,17 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -792,17 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -816,17 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -840,17 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -864,17 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -888,17 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -912,17 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -936,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -960,17 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -984,17 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1008,17 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1032,17 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1056,17 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1080,17 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1104,17 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1128,17 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1152,17 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1176,17 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1200,17 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1224,17 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1248,17 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1272,17 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1296,17 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1320,17 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1344,17 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1368,17 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1392,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1416,17 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1440,17 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1464,17 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1488,17 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1512,17 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1536,17 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1560,17 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1584,17 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1608,17 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TP11_ProyectoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\Programacion2023\\TPFINAL\\TP11_ProyectoFinal\\wwwroot\\",
-=======
-      "Identity": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "TP11_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
->>>>>>> 7854f2ee8c3358989db857b3ab315b8998fc1346
+      "ContentRoot": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\wwwroot\\",
       "BasePath": "_content/TP11_ProyectoFinal",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
