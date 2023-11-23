@@ -18655,11 +18655,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\InfoConciertos.cshtml",
-      "TargetPath": "Views\\Home\\InfoConciertos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\Registrarse.cshtml",
       "TargetPath": "Views\\Home\\Registrarse.cshtml",
       "FileKind": "mvc"
