@@ -12,7 +12,7 @@ public class HomeController : Controller
         return View();
     }
 
-public IActionResult VerMasInfo(string nombre)
+public IActionResult InfoConciertos(string nombre)
 {
     ViewBag.concierto= new List<Concierto>();
     ViewBag.conciertos = BD.traerConciertosIguales(nombre);
