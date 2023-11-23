@@ -19,9 +19,12 @@ public IActionResult InfoConciertos(string nombre)
     ViewBag.nombreConcierto=nombre;
     return View("InfoConciertos"); 
 }
-    public IActionResult FormularioCompra(int Cantidad, string Email, int idConcierto){
-        /*llamar a InsertarCompra*/
-        return View();
+public IActionResult FormularioCompra(){
+        return View("Formulario");
+    }
+public IActionResult GuardarCompra(int cantidad, string email, int idconcierto){
+        BD.InsertarCompra(cantidad, email, idconcierto);
+        return View("");
     }
      
 
