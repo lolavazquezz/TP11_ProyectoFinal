@@ -10,6 +10,8 @@
      <h3 class="card-title">@ViewBag.nombreConcierto</h3>
 @foreach (Concierto Con in ViewBag.conciertos)
 {
+ <form Action = '@Url.Action("FormularioCompra", )' method = "post">
+    <input type="hidden" name="IdPartido" value="@ViewBag.idPartido">
 <div class="card">
   <div class="card-body">
   </div>
@@ -18,9 +20,11 @@
     <p>@Con.Hora</p> 
     <h1>@Con.Stock</h1>
 </div>
-}
+<form/>
+}  
+ 
 
-<button type="button" href='@Url.Action("comprar")' class="btn btn-success">Comprar</button>
+<button type="button" href='@Url.Action("FormularioCompra", idConcierto)' class="btn btn-success">Comprar</button>
 
  <!-- Card terminos y condiciones !-->
 

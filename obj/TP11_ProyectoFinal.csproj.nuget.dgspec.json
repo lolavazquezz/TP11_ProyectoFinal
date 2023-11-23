@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {}
+    "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {
+    "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
+        "projectUniqueName": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
         "projectName": "TP11_ProyectoFinal",
-        "projectPath": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
-        "packagesPath": "C:\\Users\\47806793\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47806793\\Desktop\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\",
+        "projectPath": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\TP11_ProyectoFinal.csproj",
+        "packagesPath": "C:\\Users\\47436085\\.nuget\\packages\\",
+        "outputPath": "Z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\47806793\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\47436085\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
