@@ -1,4 +1,5 @@
-﻿﻿using System.ComponentModel.DataAnnotations;
+
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using TP9.Models;
@@ -106,41 +107,23 @@ public class HomeController : Controller
 
         return View("Index");
     }
-    public IActionResult ComprarJuego()
+
+    public Juego MostrarConciertoAjax(int IdConcierto)
     {
-        return View();
-    }
-    public Juego MostrarJuegosAjax(int IdJuego)
-    {
-        return BD.verInfoJuego(IdJuego);
+        return BD.verInfoJuego(IdConcierto);
     }
 
-    public IActionResult AgregarJuego(int IdJuego)
+   
+    public IActionResult GuardarCompra(Concierto Con)
     {
-        ViewBag.listaCategorias = BD.TraerCategorias();
-        ViewBag.Juego = IdJuego;
-        return View();
-    }
-    public IActionResult GuardarJuego(Juego Jue, IFormFile Imagen)
-    {
-        if (Imagen.Length > 0)
-        {
-            string wwwRootLocal = this.Environment.ContentRootPath + @"\wwwroot\" + Imagen.FileName;
-            using (var stream = System.IO.File.Create(wwwRootLocal))
-            {
-                Imagen.CopyTo(stream);
-            }
-            Jue.Imagen = Imagen.FileName;
-        }
-        BD.AgregarJuego(Jue);
-        ViewBag.detalleJuegos = BD.verInfoJuego(Jue.IdJuego);
-        ViewBag.listaJuegos = BD.TraerJuegos();
+        ViewBag.detalleConcierto = BD.verInfoConcierto(Con.IdConcierto);
+        ViewBag.listaConcierto = BD.TraerConcierto();
         return RedirectToAction("PaginaPrincipal", "Home");
     }
 
-    public Juego MostrarMasInfoAjax(int IdJuego)
+    public Juego MostrarInfo(int IdConcierto)
     {
-        return BD.verInfoJuego(IdJuego);
+        return BD.verInfoJuego(IdConcierto);
     }
 
     //Retorna la nueva cantidad de likes
@@ -149,14 +132,6 @@ public class HomeController : Controller
     {
         BD.AgregarLikes(IdJuego, cantLikes);
         return BD.VerCantLikes(IdJuego);
-    }
-
-    public IActionResult CrearCuentaAjax(Usuario usuario)
-    {
-        BD.AgregarUsuario(usuario);
-        //no se que poner
-        return View("Index");
-
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
