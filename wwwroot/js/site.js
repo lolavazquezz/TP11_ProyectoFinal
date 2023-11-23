@@ -6,9 +6,10 @@
         data: { IdJuego: idJ },
         success: function (response) {
             console.log(response);
-            $("#FechaCreacion").html("Fecha de lanzamiento: " + response.fechaCreacion.substr(0, response.fechaCreacion.length - 10));
-            $("#Descripcion").html(response.descripcion);
-            $("#Precio").html("Precio: " + response.precio + "USD");
+            $("#bicacion").html("Fecha de lanzamiento: " + response.Ubicacion);
+            $("#fecha").html("Fecha de lanzamiento: " + response.Fecha);
+            $("#hora").html("Fecha de lanzamiento: " + response.Hora);
+            $("#stock").html("Fecha de lanzamiento: " + response.Stock);
         }
 
     })
