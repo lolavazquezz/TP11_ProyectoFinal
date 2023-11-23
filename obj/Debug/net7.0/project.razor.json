@@ -18680,11 +18680,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "z:\\2023\\PROGRAMACION\\TP11_ProyectoFinal\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

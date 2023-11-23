@@ -1,11 +1,52 @@
-﻿function validarContraseña(){
-    let contraseña = document.getElementById("contraseña").value;
-    let m1 = document.getElementById("m1");
-    let m2 = document.getElementById("m2");
-    let m3 = document.getElementById("m3");
-    const exp = /[^a-zA-Z0-9]/;
-    m3.style.color= (contraseña.length > 7 && contraseña.length < 21 ? "green" : "red");
-    m2.style.color= (contraseña === contraseña.toLowerCase() ? "red" : "green");
-    m1.style.color= (exp.test(contraseña) ? "green" : "red");
-    return (m1.style.color == "green" && m2.style.color == "green" && m3.style.color == "green");
+﻿﻿function MostrarMasInfo(idJ) {
+    $.ajax({
+        type: 'POST',
+        dataType: 'JSON',
+        url: '/Home/MostrarMasInfoAjax',
+        data: { IdJuego: idJ },
+        success: function (response) {
+            console.log(response);
+            $("#FechaCreacion").html("Fecha de lanzamiento: " + response.fechaCreacion.substr(0, response.fechaCreacion.length - 10));
+            $("#Descripcion").html(response.descripcion);
+            $("#Precio").html("Precio: " + response.precio + "USD");
+        }
+
+    })
+}
+
+function Likes(idJ, element) {
+    let h6CantLikes = element.parentNode.children[2];
+    let elementIsLiked = element.src.includes('CorazonBlanco.jpg');
+    $.ajax({
+        type: 'POST',
+        dataType: 'JSON',
+        url: '/Home/LikesAjax',
+        data:
+        {
+            IdJuego: idJ,
+            CantLikes: !elementIsLiked ? -1 : 1 
+        },
+        success: function (response) {
+            console.log(response);
+            if (elementIsLiked) element.src = '/CorazonRojo.jpg';
+            else element.src = '/CorazonBlanco.jpg';
+            h6CantLikes.innerText = response;
+        }
+
+    })
+    //console.log(element);
+}
+
+function CrearCuenta() {
+    $.ajax({
+        type: 'POST',
+        dataType: 'JSON',
+        url: '/Home/CrearCuentaAjax',
+        //data: { IdUsuario: idU },
+        success: function (response) {
+            let content = "Nombre de usuario: <input type='text' class='play' id='player' name='Nombre' placeholder='Ingrese su nombre'></input>"
+            $("#CrearCuenta").html(content);
+        }
+
+    })
 }
