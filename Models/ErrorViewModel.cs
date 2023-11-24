@@ -1,4 +1,4 @@
-namespace TP11_ProyectoFinal.Models;
+namespace TP9.Models;
 
 public class ErrorViewModel
 {

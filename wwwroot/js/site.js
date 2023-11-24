@@ -1,4 +1,4 @@
-﻿﻿function MostrarMasInfo(idJ) {
+﻿function MostrarMasInfo(idJ) {
     $.ajax({
         type: 'POST',
         dataType: 'JSON',
@@ -6,10 +6,9 @@
         data: { IdJuego: idJ },
         success: function (response) {
             console.log(response);
-            $("#bicacion").html("Fecha de lanzamiento: " + response.Ubicacion);
-            $("#fecha").html("Fecha de lanzamiento: " + response.Fecha);
-            $("#hora").html("Fecha de lanzamiento: " + response.Hora);
-            $("#stock").html("Fecha de lanzamiento: " + response.Stock);
+            $("#FechaCreacion").html("Fecha de lanzamiento: " + response.fechaCreacion.substr(0, response.fechaCreacion.length - 10));
+            $("#Descripcion").html(response.descripcion);
+            $("#Precio").html("Precio: " + response.precio + "USD");
         }
 
     })

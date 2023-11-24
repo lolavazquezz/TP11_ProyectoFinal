@@ -1,7 +1,16 @@
-using TP11_ProyectoFinal.Models;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using TP9.Models;
 using System;
 using System.Collections.Generic;
-namespace TP11_ProyectoFinal.Controllers;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+namespace TP9.Controllers;
 
 public class HomeController : Controller
 {
@@ -72,11 +81,6 @@ public class HomeController : Controller
         ViewBag.Mensaje = "La contraseña es: " + ViewBag.Usuario.Contraseña;
         return View();
     }
-<<<<<<< HEAD
-public IActionResult GuardarCompra(int cantidad, string email, int idconcierto){
-      //  BD.InsertarCompra(cantidad, email, idconcierto);
-        return View("");
-=======
         public IActionResult BuscarOlvidoContraseña()
     {
         return View("OlvidoContraseña");
@@ -94,7 +98,6 @@ public IActionResult GuardarCompra(int cantidad, string email, int idconcierto){
             ViewBag.Mensaje = "Las contraseñas no coinciden";
             return View("Registrarse");
         }
->>>>>>> 457d73520f29dae3a59d724d91de3fe9fc816847
     }
 
     public IActionResult PaginaPrincipal()
@@ -103,31 +106,57 @@ public IActionResult GuardarCompra(int cantidad, string email, int idconcierto){
 
         return View("Index");
     }
-
-    public Juego MostrarConciertoAjax(int IdConcierto)
+    public IActionResult ComprarJuego()
     {
-        return BD.verInfoJuego(IdConcierto);
+        return View();
+    }
+    public Juego MostrarJuegosAjax(int IdJuego)
+    {
+        return BD.verInfoJuego(IdJuego);
     }
 
-   
-    public IActionResult GuardarCompra(Concierto Con)
+    public IActionResult AgregarJuego(int IdJuego)
     {
-        ViewBag.detalleConcierto = BD.verInfoConcierto(Con.IdConcierto);
-        ViewBag.listaConcierto = BD.TraerConcierto();
+        ViewBag.listaCategorias = BD.TraerCategorias();
+        ViewBag.Juego = IdJuego;
+        return View();
+    }
+    public IActionResult GuardarJuego(Juego Jue, IFormFile Imagen)
+    {
+        if (Imagen.Length > 0)
+        {
+            string wwwRootLocal = this.Environment.ContentRootPath + @"\wwwroot\" + Imagen.FileName;
+            using (var stream = System.IO.File.Create(wwwRootLocal))
+            {
+                Imagen.CopyTo(stream);
+            }
+            Jue.Imagen = Imagen.FileName;
+        }
+        BD.AgregarJuego(Jue);
+        ViewBag.detalleJuegos = BD.verInfoJuego(Jue.IdJuego);
+        ViewBag.listaJuegos = BD.TraerJuegos();
         return RedirectToAction("PaginaPrincipal", "Home");
     }
 
-    public Juego MostrarInfo(int IdConcierto)
+    public Juego MostrarMasInfoAjax(int IdJuego)
     {
-        return BD.verInfoJuego(IdConcierto);
+        return BD.verInfoJuego(IdJuego);
     }
 
     //Retorna la nueva cantidad de likes
     [HttpPost]
-    public int LikesAjax(int IdConcierto, int cantLikes)
+    public int LikesAjax(int IdJuego, int cantLikes)
     {
-        BD.AgregarLikes(IdConcierto, cantLikes);
-        return BD.VerCantLikes(IdConcierto);
+        BD.AgregarLikes(IdJuego, cantLikes);
+        return BD.VerCantLikes(IdJuego);
+    }
+
+    public IActionResult CrearCuentaAjax(Usuario usuario)
+    {
+        BD.AgregarUsuario(usuario);
+        //no se que poner
+        return View("Index");
+
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

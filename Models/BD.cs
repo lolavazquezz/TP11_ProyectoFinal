@@ -1,27 +1,33 @@
-
+using System.Runtime.InteropServices.ComTypes;
+using System.IO.Compression;
+using System.Security.Cryptography;
 using System;
+using System.Data;
+using System.Data.Common;
 using System.Collections.Generic;
+using System.Linq;
 using Dapper;
 using System.Data.SqlClient;
 
 
 
-namespace TPFinal.Models
+namespace TP9.Models
 {
     public class BD
     {
-        private static string _connectionString = @"Server=localhost;DataBase=CuboGames;Trusted_Connection=True;";
-        private static List<concierto> listaconciertos = new List<concierto>();
+        private static string _connectionString = @"Server=A-PHZ2-CIDI-019; DataBase=DeltaGames;Trusted_Connection=True;";
+
+        private static List<Juego> listaJuegos = new List<Juego>();
         private static List<Categoria> listaCategorias = new List<Categoria>();
 
-        public static List<concierto> Traerconciertos()
+        public static List<Juego> TraerJuegos()
         {
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT * from conciertos";
-                listaconciertos = db.Query<concierto>(sql).ToList();
+                string sql = "SELECT * from Juegos";
+                listaJuegos = db.Query<Juego>(sql).ToList();
             }
-            return listaconciertos;
+            return listaJuegos;
         }
         public static List<Categoria> TraerCategorias()
         {
@@ -32,71 +38,60 @@ namespace TPFinal.Models
             }
             return listaCategorias;
         }
-        public static concierto verInfoconcierto(int idJ)
+        public static Juego verInfoJuego(int idJ)
         {
-            concierto conciertoActual = null;
+            Juego juegoActual = null;
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT * FROM conciertos WHERE Idconcierto = @pidconcierto";
-                conciertoActual = db.QueryFirstOrDefault<concierto>(sql, new { pidconcierto = idJ });
+                string sql = "SELECT * FROM Juegos WHERE IdJuego = @pidJuego";
+                juegoActual = db.QueryFirstOrDefault<Juego>(sql, new { pidJuego = idJ });
             }
-            return conciertoActual;
+            return juegoActual;
         }
-        public static void AgregarconciertoSP(concierto Jug)
+        public static void AgregarJuego(Juego Jug)
         {
+            int registrosInsertados = 0;
+            string sql = "INSERT INTO Juegos(Nombre, CantLikes, Descripcion, FechaCreacion, Imagen, Precio, fkCategoria) VALUES(@Nombre, @CantLikes, @Descripcion, @FechaCreacion, @Imagen, @Precio, @fkCategoria)";
+
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                db.Execute("sp_Agregarconcierto", new
-                {
-                    Nombre = Jug.Nombre,
-                    CantLikes = Jug.CantLikes,
-                    Descripcion = Jug.Descripcion,
-                    FechaCreacion = Jug.FechaCreacion,
-                    Imagen = Jug.Imagen,
-                    Precio = Jug.Precio,
-                    fkCategoria = Jug.fkCategoria
-                }, commandType: CommandType.StoredProcedure);
+                db.Execute(sql, new { Nombre = Jug.Nombre, CantLikes = Jug.CantLikes, Descripcion = Jug.Descripcion, FechaCreacion = Jug.FechaCreacion, Imagen = Jug.Imagen, Precio = Jug.Precio, fkCategoria = Jug.fkCategoria });
             }
         }
-        public static Tarjeta VerificarSiExisteTarjeta(int numero)
+
+        public static int AgregarLikes(int idJ, int cantLikes)
         {
+            int registrosInsertados = 0;
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT * FROM Tarjeta WHERE Numero = @pNumero";
-                return db.QueryFirstOrDefault<Tarjeta>(sql, new { pNumero = numero});
+                string sql = "UPDATE Juegos SET CantLikes = (CantLikes + @pcantLikes) WHERE IdJuego = @pidJuego";
+                registrosInsertados = db.Execute(sql, new { pIdJuego = idJ, pcantLikes = cantLikes });
             }
-        }   
-        public static int ActualizarLikesconciertoSP(int idconcierto, int cantLikes)
-        {
-            using (SqlConnection db = new SqlConnection(_connectionString))
+            if (cantLikes == 1)
             {
-                string idconciertoStr = idconcierto.ToString();
-                return db.Execute("sp_ActualizarLikesconcierto", new
-                {
-                    Idconcierto = idconciertoStr,
-                    CantLikes = cantLikes
-                }, commandType: CommandType.StoredProcedure);
+                string SQL = "DELETE FROM LikesxUsuario WHERE IdUsuario";
             }
+            return registrosInsertados;
         }
+
         public static int VerCantLikes(int idJ)
         {
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT CantLikes FROM conciertos WHERE Idconcierto = @pIdconcierto";
-                return db.QueryFirstOrDefault<int>(sql, new { pIdconcierto = idJ });
+                string sql = "SELECT CantLikes FROM Juegos WHERE IdJuego = @pIdJuego";
+                return db.QueryFirstOrDefault<int>(sql, new { pIdJuego = idJ });
             }
         }
 
-        public static int AgregarUsuarioSP(Usuario usuario)
+        public static int AgregarUsuario(Usuario usuario)
         {
+            int registrosInsertados = 0;
+            string sql = "INSERT INTO Usuarios(Contraseña, Nombre) VALUES(@Contraseña, @Nombre)";
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                return db.Execute("sp_AgregarUsuario", new
-                {
-                    Contraseña = usuario.Contraseña,
-                    Nombre = usuario.Nombre
-                }, commandType: CommandType.StoredProcedure);
+                registrosInsertados = db.Execute(sql, new { Contraseña = usuario.Contraseña, Nombre = usuario.Nombre });
             }
+            return registrosInsertados;
         }
         public static Usuario BuscarUsuario(Usuario U)
         {
