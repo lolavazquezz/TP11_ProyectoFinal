@@ -1,5 +1,5 @@
 
-<form class="formAgr" method="POST" action='@Url.Action("GuardarJuego","Home")' enctype="multipart/form-data">
+<form class="formAgr" method="POST" action='@Url.Action("Guardarconcierto","Home")' enctype="multipart/form-data">
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Nombre</label>
         <input type="text" class="form-control" name="nombre" aria-describedby="emailHelp">
@@ -19,13 +19,13 @@
             <label for="exampleInputEmail1" class="form-label">Imagen</label>
             <input type="file" class="form-control" name="Imagen" aria-describedby="emailHelp" required>
             <br>
-            <label for="exampleInputEmail1" class="form-label">Fecha de creación del juego</label>
+            <label for="exampleInputEmail1" class="form-label">Fecha de creación del concierto</label>
             <input type="date" class="form-control" name="FechaCreacion" aria-describedby="emailHelp" required>
             <br>
             <label for="exampleInputEmail1" class="form-label">Precio</label>
             <input type="number" class="form-control" name="Precio" aria-describedby="emailHelp" required>
             <br>
-            <input type="submit" class="btn btn-primary" value="Guardar Juego">
+            <input type="submit" class="btn btn-primary" value="Guardar concierto">
         </div>
     </div>
 </form>

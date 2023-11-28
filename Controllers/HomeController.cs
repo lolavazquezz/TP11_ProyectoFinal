@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using TP9.Models;
+using TPFinal.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-namespace TP9.Controllers;
+namespace TPFinal.Controllers;
 
 public class HomeController : Controller
 {
@@ -26,6 +26,26 @@ public class HomeController : Controller
     {
         return View("IniciarSesion");
     }
+    public IActionResult Creditos()
+    {
+        return View();
+    }
+    public IActionResult VerificarTarjeta(Tarjeta T)
+    {
+        Tarjeta tarjeta = BD.VerificarSiExisteTarjeta(T.Numero);
+        if (tarjeta != null)
+        {
+            return RedirectToAction("Compra", "Home");
+        }
+        else
+        {
+            return RedirectToAction("Error", "Home");
+        }
+    }
+    public IActionResult Compra()
+    {
+        return View();
+    }
     public IActionResult VerificarUsuario(Usuario U)
     {
 
@@ -34,8 +54,7 @@ public class HomeController : Controller
             Usuario usuarioBD = BD.BuscarUsuarioXNombre(U.Nombre);
             if (usuarioBD.Contraseña == U.Contraseña)
             {
-                return RedirectToAction("PaginaPrincipal", "Home");
-
+            return RedirectToAction("PaginaPrincipal", "Home", new { IdUsuario = usuarioBD.IdUsuario});
             }
             else
             {
@@ -49,7 +68,6 @@ public class HomeController : Controller
             return View("IniciarSesion");
         }
     }
-
     public bool VerificarSiExisteUsuario(Usuario U)
     {
         return BD.BuscarUsuarioXNombre(U.Nombre) != null;
@@ -67,7 +85,7 @@ public class HomeController : Controller
             ViewBag.Mensaje = "Las contraseñas no coinciden";
             return View("Registrarse");
         }
-        BD.AgregarUsuario(U);
+        BD.AgregarUsuarioSP(U);
 
         return RedirectToAction("PaginaPrincipal", "Home");
     }
@@ -78,7 +96,13 @@ public class HomeController : Controller
     public IActionResult OlvidoContraseña(Usuario U)
     {
         ViewBag.Usuario = BD.BuscarContraXUsuario(U.Nombre);
+        if (ViewBag.Usuario != null) {
         ViewBag.Mensaje = "La contraseña es: " + ViewBag.Usuario.Contraseña;
+        }
+        else
+        {
+            ViewBag.Mensaje = "No encontramos el usuario ingresado";
+        }
         return View();
     }
         public IActionResult BuscarOlvidoContraseña()
@@ -90,7 +114,7 @@ public class HomeController : Controller
     {
         if (U.Contraseña == Contraseña2)
         {
-            BD.AgregarUsuario(U);
+            BD.AgregarUsuarioSP(U);
             return RedirectToAction("PaginaPrincipal", "Home");
         }
         else
@@ -99,29 +123,29 @@ public class HomeController : Controller
             return View("Registrarse");
         }
     }
-
+    
     public IActionResult PaginaPrincipal()
     {
-        ViewBag.listaJuegos = BD.TraerJuegos();
 
+        ViewBag.listaconciertos = BD.Traerconciertos();
         return View("Index");
     }
-    public IActionResult ComprarJuego()
+    public IActionResult Comprarconcierto()
     {
         return View();
     }
-    public Juego MostrarJuegosAjax(int IdJuego)
+    public concierto MostrarconciertosAjax(int Idconcierto)
     {
-        return BD.verInfoJuego(IdJuego);
+        return BD.verInfoconcierto(Idconcierto);
     }
 
-    public IActionResult AgregarJuego(int IdJuego)
+    public IActionResult Agregarconcierto(int Idconcierto)
     {
         ViewBag.listaCategorias = BD.TraerCategorias();
-        ViewBag.Juego = IdJuego;
+        ViewBag.concierto = Idconcierto;
         return View();
     }
-    public IActionResult GuardarJuego(Juego Jue, IFormFile Imagen)
+    public IActionResult Guardarconcierto(concierto Jue, IFormFile Imagen)
     {
         if (Imagen.Length > 0)
         {
@@ -132,29 +156,28 @@ public class HomeController : Controller
             }
             Jue.Imagen = Imagen.FileName;
         }
-        BD.AgregarJuego(Jue);
-        ViewBag.detalleJuegos = BD.verInfoJuego(Jue.IdJuego);
-        ViewBag.listaJuegos = BD.TraerJuegos();
+        BD.AgregarconciertoSP(Jue);
+        ViewBag.detalleconciertos = BD.verInfoconcierto(Jue.Idconcierto);
+        ViewBag.listaconciertos = BD.Traerconciertos();
         return RedirectToAction("PaginaPrincipal", "Home");
     }
 
-    public Juego MostrarMasInfoAjax(int IdJuego)
+    public concierto MostrarMasInfoAjax(int Idconcierto)
     {
-        return BD.verInfoJuego(IdJuego);
+        return BD.verInfoconcierto(Idconcierto);
     }
 
     //Retorna la nueva cantidad de likes
     [HttpPost]
-    public int LikesAjax(int IdJuego, int cantLikes)
+    public int LikesAjax(int Idconcierto, int cantLikes, int IdUsuario)
     {
-        BD.AgregarLikes(IdJuego, cantLikes);
-        return BD.VerCantLikes(IdJuego);
+        BD.ActualizarLikesconciertoSP(Idconcierto, cantLikes);
+        return BD.VerCantLikes(Idconcierto);
     }
 
     public IActionResult CrearCuentaAjax(Usuario usuario)
     {
-        BD.AgregarUsuario(usuario);
-        //no se que poner
+        BD.AgregarUsuarioSP(usuario);
         return View("Index");
 
     }

@@ -1,6 +1,6 @@
 using System;
 
-namespace TP9.Models
+namespace TPFinal.Models
 {
     public class Usuario
     {
@@ -26,11 +26,14 @@ namespace TP9.Models
             get { return _nombre; }
             set { _nombre = value; }
         }
+
+        
         public string Contraseña
         {
             get { return _contraseña; }
             set { _contraseña = value; }
         }
+    public List<conciertoUsuarioLikes> Likes { get; set; }
 
     }
 }
