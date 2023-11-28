@@ -16,7 +16,7 @@ namespace TP11_ProyectoFinal.Models
 {
     public class BD
     {
-        private static string _connectionString = @"Server=localhost;DataBase=DeltaGames;Trusted_Connection=True;";
+        private static string _connectionString = @"Server=localhost;DataBase=WorldConcerts;Trusted_Connection=True;";
         private static List<Concierto> listaConciertos = new List<Concierto>();
         private static List<Categoria> listaCategorias = new List<Categoria>();
 
