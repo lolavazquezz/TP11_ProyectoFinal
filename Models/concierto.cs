@@ -1,37 +1,37 @@
 using System;
 
-namespace TP9.Models
+namespace TP11_ProyectoFinal.Models
 {
-    public class concierto
+    public class Concierto
     {
-        private int _idconcierto;
+        private int _idConcierto;
         private string _nombre;
         private int _cantLikes;
-        private string _descripcionconcierto;
-        private DateTime _fechaCreacion;
+        private string _descripcionConcierto;
+        private DateTime _FechaConcierto;
         private string _imagen;
 
         private int _precio;
 
         private int _fkCategoria;
 
-        public concierto(int Idconcierto, string Nombre, int CantLikes, string Descripcionconcierto, DateTime FechaCreacion, string Imagen, int Precio, int fkCategoria)
+        public Concierto(int IdConcierto, string Nombre, int CantLikes, string DescripcionConcierto, DateTime FechaConcierto, string Imagen, int Precio, int fkCategoria)
         {
-            _idconcierto = Idconcierto;
+            _idConcierto = IdConcierto;
             _nombre = Nombre;
             _cantLikes = CantLikes;
-            _descripcionconcierto = Descripcionconcierto;
-            _fechaCreacion = FechaCreacion;
+            _descripcionConcierto = DescripcionConcierto;
+            _FechaConcierto = FechaConcierto;
             _imagen = Imagen;
             _precio = Precio;
             _fkCategoria = fkCategoria;
 
         }
-        public concierto() { }
-        public int Idconcierto
+        public Concierto() { }
+        public int IdConcierto
         {
-            get { return _idconcierto; }
-            set { _idconcierto = value; }
+            get { return _idConcierto; }
+            set { _idConcierto = value; }
         }
 
         public string Nombre
@@ -46,13 +46,13 @@ namespace TP9.Models
         }
         public string Descripcion
         {
-            get { return _descripcionconcierto; }
-            set { _descripcionconcierto = value; }
+            get { return _descripcionConcierto; }
+            set { _descripcionConcierto = value; }
         }
-        public DateTime FechaCreacion
+        public DateTime FechaConcierto
         {
-            get { return _fechaCreacion; }
-            set { _fechaCreacion = value; }
+            get { return _FechaConcierto; }
+            set { _FechaConcierto = value; }
         }
         public string Imagen
         {

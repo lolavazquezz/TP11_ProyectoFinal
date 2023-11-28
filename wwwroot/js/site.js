@@ -1,12 +1,12 @@
-﻿function MostrarMasInfo(idJ) {
+﻿function MostrarMasInfo(idc) {
     $.ajax({
         type: 'POST',
         dataType: 'JSON',
         url: '/Home/MostrarMasInfoAjax',
-        data: { Idconcierto: idJ },
+        data: { IdConcierto: idc },
         success: function (response) {
             console.log(response);
-            $("#FechaCreacion").html("Fecha de lanzamiento: " + response.fechaCreacion.substr(0, response.fechaCreacion.length - 10));
+            $("#FechaConcierto").html("Fecha de lanzamiento: " + response.FechaConcierto.substr(0, response.FechaConcierto.length - 10));
             $("#Descripcion").html(response.descripcion);
             $("#Precio").html("Precio: " + response.precio + "USD");
         }
@@ -14,7 +14,7 @@
     })
 }
 
-function Likes(idJ, element) {
+function Likes(idc, element) {
     let h6CantLikes = element.parentNode.children[2];
     let elementIsLiked = element.src.includes('CorazonBlanco.jpg');
     $.ajax({
@@ -23,7 +23,7 @@ function Likes(idJ, element) {
         url: '/Home/LikesAjax',
         data:
         {
-            Idconcierto: idJ,
+            IdConcierto: idc,
             CantLikes: !elementIsLiked ? -1 : 1 
         },
         success: function (response) {

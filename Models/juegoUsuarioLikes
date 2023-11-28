@@ -1,6 +1,8 @@
-public class conciertoUsuarioLikes
+
+
+public class ConciertoUsuarioLikes
 {
-    public int Idconcierto { get; set; }
+    public int IdConcierto { get; set; }
     public int IdUsuario { get; set; }
     public int likes {get;set;}
 }

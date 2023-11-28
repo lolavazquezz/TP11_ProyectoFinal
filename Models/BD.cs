@@ -11,22 +11,23 @@ using System.Data.SqlClient;
 
 
 
-namespace TPFinal.Models
+namespace TP11_ProyectoFinal.Models
+
 {
     public class BD
     {
         private static string _connectionString = @"Server=localhost;DataBase=DeltaGames;Trusted_Connection=True;";
-        private static List<concierto> listaconciertos = new List<concierto>();
+        private static List<Concierto> listaConciertos = new List<Concierto>();
         private static List<Categoria> listaCategorias = new List<Categoria>();
 
-        public static List<concierto> Traerconciertos()
+        public static List<Concierto> TraerConciertos()
         {
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT * from conciertos";
-                listaconciertos = db.Query<concierto>(sql).ToList();
+                string sql = "SELECT * from Conciertos";
+                listaConciertos = db.Query<Concierto>(sql).ToList();
             }
-            return listaconciertos;
+            return listaConciertos;
         }
         public static List<Categoria> TraerCategorias()
         {
@@ -37,29 +38,29 @@ namespace TPFinal.Models
             }
             return listaCategorias;
         }
-        public static concierto verInfoconcierto(int idJ)
+        public static Concierto verInfoConcierto(int idc)
         {
-            concierto conciertoActual = null;
+            Concierto ConciertoActual = null;
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT * FROM conciertos WHERE Idconcierto = @pidconcierto";
-                conciertoActual = db.QueryFirstOrDefault<concierto>(sql, new { pidconcierto = idJ });
+                string sql = "SELECT * FROM Conciertos WHERE IdConcierto = @pidConcierto";
+                ConciertoActual = db.QueryFirstOrDefault<Concierto>(sql, new { pidConcierto = idc });
             }
-            return conciertoActual;
+            return ConciertoActual;
         }
-        public static void AgregarconciertoSP(concierto Jug)
+        public static void AgregarConciertoSP(Concierto Con)
         {
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                db.Execute("sp_Agregarconcierto", new
+                db.Execute("sp_AgregarConcierto", new
                 {
-                    Nombre = Jug.Nombre,
-                    CantLikes = Jug.CantLikes,
-                    Descripcion = Jug.Descripcion,
-                    FechaCreacion = Jug.FechaCreacion,
-                    Imagen = Jug.Imagen,
-                    Precio = Jug.Precio,
-                    fkCategoria = Jug.fkCategoria
+                    Nombre = Con.Nombre,
+                    CantLikes = Con.CantLikes,
+                    Descripcion = Con.Descripcion,
+                    FechaConcierto = Con.FechaConcierto,
+                    Imagen = Con.Imagen,
+                    Precio = Con.Precio,
+                    fkCategoria = Con.fkCategoria
                 }, commandType: CommandType.StoredProcedure);
             }
         }
@@ -71,24 +72,24 @@ namespace TPFinal.Models
                 return db.QueryFirstOrDefault<Tarjeta>(sql, new { pNumero = numero});
             }
         }   
-        public static int ActualizarLikesconciertoSP(int idconcierto, int cantLikes)
+        public static int ActualizarLikesConciertoSP(int idConcierto, int cantLikes)
         {
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string idconciertoStr = idconcierto.ToString();
-                return db.Execute("sp_ActualizarLikesconcierto", new
+                string idConciertoStr = idConcierto.ToString();
+                return db.Execute("sp_ActualizarLikesConcierto", new
                 {
-                    Idconcierto = idconciertoStr,
+                    IdConcierto = idConciertoStr,
                     CantLikes = cantLikes
                 }, commandType: CommandType.StoredProcedure);
             }
         }
-        public static int VerCantLikes(int idJ)
+        public static int VerCantLikes(int idc)
         {
             using (SqlConnection db = new SqlConnection(_connectionString))
             {
-                string sql = "SELECT CantLikes FROM conciertos WHERE Idconcierto = @pIdconcierto";
-                return db.QueryFirstOrDefault<int>(sql, new { pIdconcierto = idJ });
+                string sql = "SELECT CantLikes FROM Conciertos WHERE IdConcierto = @pIdConcierto";
+                return db.QueryFirstOrDefault<int>(sql, new { pIdConcierto = idc });
             }
         }
 

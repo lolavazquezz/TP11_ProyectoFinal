@@ -30,12 +30,12 @@
 
     <div class="row mb-3 mt-3">
         <div class="col d-flex justify-content-center">
-            <a href='@Url.Action("Agregarconcierto","Home")' class="btn btn-info">Agregar concierto</a>
+            <a href='@Url.Action("AgregarConcierto","Home")' class="btn btn-info">Agregar Concierto</a>
         </div>
     </div>
     <div class="row">
         @{
-            @foreach (concierto item in @ViewBag.listaconciertos)
+            @foreach (Concierto item in @ViewBag.listaConciertos)
             {
                 <div class="col-md-3">
                     <div class="card bg-dark text-white w-100 mb-5">
@@ -44,10 +44,10 @@
                             <h5 class="card-title" style="min-height:75px;">@item.Nombre</h5>
                             <p class="card-text">
                             <h6 class="likes">@item.CantLikes</h6>
-                            <img id="BotonLike" class="corazon" src="/CorazonBlanco.jpg" onclick="Likes(@item.Idconcierto, this)">
+                            <img id="BotonLike" class="corazon" src="/CorazonBlanco.jpg" onclick="Likes(@item.IdConcierto, this)">
                             </p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalconcierto"
-                            onclick="MostrarMasInfo(@item.Idconcierto)">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalConcierto"
+                            onclick="MostrarMasInfo(@item.IdConcierto)">
                                 Más info
                             </button>
                         </div>
@@ -57,15 +57,17 @@
         }
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="Modalconcierto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+   
+    <div class="modal fade" id="ModalConcierto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" style="margin-top: 15%;" role="document">
             <div class="modal-content bg-white text-dark">
                 <div class="modal-body">
-                    <p id="FechaCreacion"></p>
+                    <p id="FechaConcierto"></p>
                     <p id="Descripcion"></p>
                     <p id="Precio"></p>
                 </div>
+                 <body class = "modal-body">
                 <div class="modal-footer">
                     <button class="noselect buttonCerrar" data-bs-dismiss="modal">
                         <span class="text">Cerrar</span>
@@ -77,14 +79,10 @@
                             </svg>
                         </span>
                     </button>
-                    <a href='@Url.Action("Comprarconcierto","Home")'>
+                    <a href='@Url.Action("ComprarConcierto","Home")'>
                         <button class="noselect buttonComprar" data-bs-dismiss="modal">
                             <span class="text">Comprar</span>
                             <span class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                                    <path
-                                        d="M 22.566406 4.730469 L 20.773438 3.511719 C 20.277344 3.175781 19.597656 3.304688 19.265625 3.796875 L 10.476563 16.757813 L 6.4375 12.71875 C 6.015625 12.296875 5.328125 12.296875 4.90625 12.71875 L 3.371094 14.253906 C 2.949219 14.675781 2.949219 15.363281 3.371094 15.789063 L 9.582031 22 C 9.929688 22.347656 10.476563 22.613281 10.96875 22.613281 C 11.460938 22.613281 11.957031 22.304688 12.277344 21.839844 L 22.855469 6.234375 C 23.191406 5.742188 23.0625 5.066406 22.566406 4.730469 Z">
-                                    </path>
                             </span>
                         </button>
                         </button>

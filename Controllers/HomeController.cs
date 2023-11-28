@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using TPFinal.Models;
+using TP11_ProyectoFinal.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-namespace TPFinal.Controllers;
+namespace TP11_ProyectoFinal.Controllers;
 
 public class HomeController : Controller
 {
@@ -127,52 +127,26 @@ public class HomeController : Controller
     public IActionResult PaginaPrincipal()
     {
 
-        ViewBag.listaconciertos = BD.Traerconciertos();
+        ViewBag.listaConciertos = BD.TraerConciertos();
         return View("Index");
     }
-    public IActionResult Comprarconcierto()
+    
+    public Concierto MostrarConciertosAjax(int IdConcierto)
     {
-        return View();
-    }
-    public concierto MostrarconciertosAjax(int Idconcierto)
-    {
-        return BD.verInfoconcierto(Idconcierto);
+        return BD.verInfoConcierto(IdConcierto);
     }
 
-    public IActionResult Agregarconcierto(int Idconcierto)
+    public Concierto MostrarMasInfoAjax(int IdConcierto)
     {
-        ViewBag.listaCategorias = BD.TraerCategorias();
-        ViewBag.concierto = Idconcierto;
-        return View();
-    }
-    public IActionResult Guardarconcierto(concierto Jue, IFormFile Imagen)
-    {
-        if (Imagen.Length > 0)
-        {
-            string wwwRootLocal = this.Environment.ContentRootPath + @"\wwwroot\" + Imagen.FileName;
-            using (var stream = System.IO.File.Create(wwwRootLocal))
-            {
-                Imagen.CopyTo(stream);
-            }
-            Jue.Imagen = Imagen.FileName;
-        }
-        BD.AgregarconciertoSP(Jue);
-        ViewBag.detalleconciertos = BD.verInfoconcierto(Jue.Idconcierto);
-        ViewBag.listaconciertos = BD.Traerconciertos();
-        return RedirectToAction("PaginaPrincipal", "Home");
-    }
-
-    public concierto MostrarMasInfoAjax(int Idconcierto)
-    {
-        return BD.verInfoconcierto(Idconcierto);
+        return BD.verInfoConcierto(IdConcierto);
     }
 
     //Retorna la nueva cantidad de likes
     [HttpPost]
-    public int LikesAjax(int Idconcierto, int cantLikes, int IdUsuario)
+    public int LikesAjax(int IdConcierto, int cantLikes, int IdUsuario)
     {
-        BD.ActualizarLikesconciertoSP(Idconcierto, cantLikes);
-        return BD.VerCantLikes(Idconcierto);
+        BD.ActualizarLikesConciertoSP(IdConcierto, cantLikes);
+        return BD.VerCantLikes(IdConcierto);
     }
 
     public IActionResult CrearCuentaAjax(Usuario usuario)

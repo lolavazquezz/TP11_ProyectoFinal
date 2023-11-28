@@ -1,6 +1,6 @@
 using System;
 
-namespace TPFinal.Models
+namespace TP11_ProyectoFinal.Models
 {
     public class Categoria
     {
