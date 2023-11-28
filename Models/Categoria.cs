@@ -4,26 +4,15 @@ namespace TP11_ProyectoFinal.Models
 {
     public class Categoria
     {
-        private int _idCategoria;
-        private string _tipoCategoria;
+        public int IdCategoria { get; set; }
+        public string TipoCategoria { get; set; }
 
-        public Categoria(int IdCategoria, string TipoCategoria)
+        public Categoria(int idCategoria, string tipoCategoria)
         {
-            _idCategoria = IdCategoria;
-            _tipoCategoria = TipoCategoria;
-
+            IdCategoria = idCategoria;
+            TipoCategoria = tipoCategoria;
         }
+
         public Categoria() { }
-        public int IdCategoria
-        {
-            get { return _idCategoria; }
-            set { _idCategoria = value; }
-        }
-
-        public string TipoCategoria
-        {
-            get { return _tipoCategoria; }
-            set { _tipoCategoria = value; }
-        }
     }
 }

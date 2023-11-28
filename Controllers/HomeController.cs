@@ -141,13 +141,7 @@ public class HomeController : Controller
         return BD.verInfoConcierto(IdConcierto);
     }
 
-    //Retorna la nueva cantidad de likes
-    [HttpPost]
-    public int LikesAjax(int IdConcierto, int cantLikes, int IdUsuario)
-    {
-        BD.ActualizarLikesConciertoSP(IdConcierto, cantLikes);
-        return BD.VerCantLikes(IdConcierto);
-    }
+
 
     public IActionResult CrearCuentaAjax(Usuario usuario)
     {

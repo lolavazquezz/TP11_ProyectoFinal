@@ -48,22 +48,7 @@ namespace TP11_ProyectoFinal.Models
             }
             return ConciertoActual;
         }
-        public static void AgregarConciertoSP(Concierto Con)
-        {
-            using (SqlConnection db = new SqlConnection(_connectionString))
-            {
-                db.Execute("sp_AgregarConcierto", new
-                {
-                    Nombre = Con.Nombre,
-                    CantLikes = Con.CantLikes,
-                    Descripcion = Con.Descripcion,
-                    FechaConcierto = Con.FechaConcierto,
-                    Imagen = Con.Imagen,
-                    Precio = Con.Precio,
-                    fkCategoria = Con.fkCategoria
-                }, commandType: CommandType.StoredProcedure);
-            }
-        }
+      
         public static Tarjeta VerificarSiExisteTarjeta(int numero)
         {
             using (SqlConnection db = new SqlConnection(_connectionString))
@@ -72,26 +57,7 @@ namespace TP11_ProyectoFinal.Models
                 return db.QueryFirstOrDefault<Tarjeta>(sql, new { pNumero = numero});
             }
         }   
-        public static int ActualizarLikesConciertoSP(int idConcierto, int cantLikes)
-        {
-            using (SqlConnection db = new SqlConnection(_connectionString))
-            {
-                string idConciertoStr = idConcierto.ToString();
-                return db.Execute("sp_ActualizarLikesConcierto", new
-                {
-                    IdConcierto = idConciertoStr,
-                    CantLikes = cantLikes
-                }, commandType: CommandType.StoredProcedure);
-            }
-        }
-        public static int VerCantLikes(int idc)
-        {
-            using (SqlConnection db = new SqlConnection(_connectionString))
-            {
-                string sql = "SELECT CantLikes FROM Conciertos WHERE IdConcierto = @pIdConcierto";
-                return db.QueryFirstOrDefault<int>(sql, new { pIdConcierto = idc });
-            }
-        }
+        
 
         public static int AgregarUsuarioSP(Usuario usuario)
         {

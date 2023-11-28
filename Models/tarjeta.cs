@@ -4,33 +4,17 @@ namespace TP11_ProyectoFinal.Models
 {
     public class Tarjeta
     {
-    private int _numero;
-    private string _titular;
-    private int _codigoseg;
+        public int Numero { get; set; }
+        public string Titular { get; set; }
+        public int CodigoSeg { get; set; }
 
-    public Tarjeta(int Numero, string Titular, int CodigoSeg)
-    {
-        _numero = Numero;   
-        _titular = Titular;
-        _codigoseg = CodigoSeg; 
-    }
+        public Tarjeta(int numero, string titular, int codigoSeg)
+        {
+            Numero = numero;
+            Titular = titular;
+            CodigoSeg = codigoSeg;
+        }
+
         public Tarjeta() { }
-        public int Numero
-        {
-            get { return _numero; }
-            set { _numero = value; }
-        }
-
-        public string Titular
-        {
-            get { return _titular; }
-            set { _titular = value; }
-        }
-        public int CodigoSeg
-        {
-        get { return _codigoseg; }
-        set { _codigoseg = value; }
-        }
-
     }
 }

@@ -4,36 +4,17 @@ namespace TP11_ProyectoFinal.Models
 {
     public class Usuario
     {
-        private int _idUsuario;
-        private string _contraseña;
-        private string _nombre;
+        public int IdUsuario { get; set; }
+        public string Nombre { get; set; }
+        public string Contraseña { get; set; }
 
-        public Usuario(int IdUsuario, string Contraseña, string Nombre)
+        public Usuario(int idUsuario, string contraseña, string nombre)
         {
-            _idUsuario = IdUsuario;
-            _contraseña = Contraseña;
-            _nombre = Nombre;
+            IdUsuario = idUsuario;
+            Contraseña = contraseña;
+            Nombre = nombre;
         }
+
         public Usuario() { }
-        public int IdUsuario
-        {
-            get { return _idUsuario; }
-            set { _idUsuario = value; }
-        }
-
-        public string Nombre
-        {
-            get { return _nombre; }
-            set { _nombre = value; }
-        }
-
-        
-        public string Contraseña
-        {
-            get { return _contraseña; }
-            set { _contraseña = value; }
-        }
-    public List<ConciertoUsuarioLikes> Likes { get; set; }
-
     }
 }
